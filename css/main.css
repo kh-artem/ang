@@ -1,0 +1,60 @@
+table{
+    width: 1500px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+#myForm{
+    width: 300px;
+}
+
+#myForm .ng-invalid-required.ng-dirty{
+    border-color:orangered;
+}
+
+#myForm .ng-valid.ng-dirty {
+    border-color: lightgreen;
+}
+
+
+button{
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
+.hidden{
+    display:none;
+}
+
+/* edit button */
+.edit a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.edit a:hover{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* create button */
+.create{
+    margin:20px 50%;
+}
+
+.create a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.create a:hover{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
