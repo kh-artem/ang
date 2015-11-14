@@ -4,6 +4,14 @@ table{
     margin: 0 auto;
 }
 
+table th{
+    text-align: center;
+}
+
+table td{
+    padding: 10px 0;
+    text-align: center;
+}
 
 #myForm{
     width: 300px;
